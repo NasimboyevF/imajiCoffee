@@ -111,6 +111,98 @@ body
 }
 
 
+.footer
+{
+    padding: 50px 0;
+    background-color: #121212;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer a{
+    color: #FFFFFF;
+}
+
+.footer-inner
+{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FFFFFF
+}
+
+.footer-title
+{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+margin-bottom: 10px;
+}   
+
+.footer-infos {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.tel
+{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.footer-pruf {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.footer-wrapper {
+    padding: 30px 0 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-apps
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.atributs
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.atributs p
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #A27B5C;
+
+}
+
 
 .info {
     padding: 80px 0;
@@ -164,7 +256,6 @@ body
 
 
 .hiro-title {
-    font-family: DM Sans;
     font-size: 96px;
     font-weight: 500;
     line-height: 120px;
@@ -212,6 +303,5 @@ body
     background-color: #717171;
 
 }
-
 
 
