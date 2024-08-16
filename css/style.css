@@ -58,7 +58,7 @@ body
 .container
 {
     width: 100%;
-    max-width: 1460px;
+    max-width: 1192px;
     padding: 10px;
     margin: 0 auto;
 }
@@ -66,6 +66,7 @@ body
 
 .header
 {
+    max-width: 1460px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,4 +108,69 @@ body
 .header-button:active
 {
     background-color: #A27B5C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info {
+    padding: 80px 0;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-item{
+    padding: 28px 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #B8B8B8;
+    gap: 50px;
+}
+
+.info-inner
+{
+    max-width: 881px;
+}
+
+.title {
+
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    margin-bottom: 5px;
+}
+
+.info-button
+{
+    display: block;
+    margin: 0 auto;
 }
