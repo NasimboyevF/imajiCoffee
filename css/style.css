@@ -112,31 +112,6 @@ body
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .info {
     padding: 80px 0;
 }
@@ -174,3 +149,69 @@ body
     display: block;
     margin: 0 auto;
 }
+=======
+.hero{
+    background-color: #FCF7EF;
+    padding: 80px 0;
+}
+
+.hero-cont {
+    max-width: 1192px;
+    text-align: center;
+    color: #121212;
+}
+
+
+
+.hiro-title {
+    font-family: DM Sans;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    margin-bottom: 40px;
+
+}
+.hero-img {
+    margin: 0 auto 30px;
+}
+.hero-info {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.date {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #717171;
+    display: flex;
+    align-items: center;
+}
+
+.date span
+{
+    display:inline-block;
+    margin: 0 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #717171;
+
+}
+
+
+
