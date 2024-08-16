@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -63,9 +64,47 @@ body
 }
 
 
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 10px;
+}
 
+.header-list
+{
+    display: flex;
+    align-items: center;
+    gap:24px ;
+}
 
+.header-link
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #121212;
+}
 
+.header-link:active
+{
+    opacity: 0.6;
+}
 
+.header-button
+{
+    padding: 14px 27px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    border: 1px solid #A27B5C;
+    background: none;
+}
 
-
+.header-button:active
+{
+    background-color: #A27B5C;
+}
